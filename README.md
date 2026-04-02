@@ -2,11 +2,8 @@
 
 <img src="https://raw.githubusercontent.com/sidhantjha/sidhantjha/main/banner.svg" width="100%"/>
 
-<br/>
-
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=15&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&width=700&lines=Building+robots+that+think+for+themselves.;Perception+%C2%B7+Control+%C2%B7+Decentralized+Intelligence;Aerospace+Engineering+%2B+CS+%40+UIUC" alt="Typing SVG" />
 
-<br/>
 
 [![LinkedIn](https://img.shields.io/badge/-LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sidhantsjha)
 &nbsp;
