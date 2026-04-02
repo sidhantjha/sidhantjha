@@ -1,26 +1,26 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&width=700&lines=Sidhant+Soumya+Jha;Autonomy+%7C+Multi-Robot+%7C+Aerospace;Building+robots+that+think+for+themselves." alt="Typing SVG" />
+![Banner](banner.svg)
 
 <br/>
 
-**`Aerospace Engineering + CS Minor · UIUC · GPA 3.52`**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=15&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&width=700&lines=Building+robots+that+think+for+themselves.;Perception+%C2%B7+Control+%C2%B7+Decentralized+Intelligence;Aerospace+Engineering+%2B+CS+%40+UIUC" alt="Typing SVG" />
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sidhantsjha-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/sidhantsjha)
 [![Email](https://img.shields.io/badge/Email-ssjha2@illinois.edu-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ssjha2@illinois.edu)
-[![UIUC](https://img.shields.io/badge/UIUC-Aerospace_Engineering-13294B?style=flat-square&logo=academia&logoColor=white)](https://aerospace.illinois.edu)
+[![UIUC](https://img.shields.io/badge/UIUC-Aerospace_Engineering-13294B?style=flat-square)](https://aerospace.illinois.edu)
 
 </div>
 
 ---
 
 ```
-> Autonomy-focused engineer working at the intersection of perception, control theory,
-> and decentralized multi-robot coordination.
+> Autonomy-focused engineer working at the intersection of perception,
+> control theory, and decentralized multi-robot coordination.
 >
-> Currently: ACRL + AVIATE labs · Founder, Project Lumyn
+> Researcher @ ACRL · AVIATE labs  ·  Founder @ Project Lumyn  ·  Building rosscope
 ```
 
 ---
@@ -37,12 +37,30 @@
 
 ## 🛸 Projects
 
+### [`rosscope`](https://github.com/sidhantjha/rosscope) — AI-Powered ROS 2 Debugging Environment *(Startup)*
+> Developer Tooling · LLM-integrated · Live Graph Visualization
+
+ROS 2 development is brutal — cryptic TF errors, silent node failures, transform drift that takes hours to diagnose. **rosscope** is an intelligent debugging environment that wraps your ROS 2 session with live node graph visualization, semantic error diagnosis, and AI-assisted troubleshooting. Built for robotics engineers who want to spend time on the actual problem, not the middleware.
+
+`Python` `ROS 2` `LLM` `Graph Visualization` `Developer Tools`
+
+---
+
+### [`AVIATE-SharedAutonomy`](https://github.com/sidhantjha/aviate-shared-autonomy) — Human–AI Cooperative Control
+> Game Theory · Nash Equilibrium Switching · Stochastic Override Models
+
+Investigating shared autonomy between human and AI agents for general dynamical systems using game-theoretic formulations. Implementing cooperative takeover policies from identical-interest dynamic games and Nash equilibrium switching strategies. Analyzing cost-sensitive authority transitions via linear–quadratic saddle-point recursions under stochastic human override models (pₖ). Benchmarking against ad-hoc baselines in OpenAI Gymnasium under disturbance and partial observability.
+
+`Python` `OpenAI Gymnasium` `Control Theory` `Game Theory` `LQR`
+
+---
+
 ### [`SkySync`](https://github.com/sidhantjha/skysync) — Decentralized Multi-UAV Formation Control
 > APF · Consensus ADMM · MPC · Stability Analysis
 
-Designing a decentralized formation control architecture for UAV swarms with quantitative stability guarantees. Combines artificial potential fields for collision avoidance with ADMM-based consensus and model predictive control for trajectory tracking. Part of Project Lumyn.
+Designing a decentralized formation control architecture for UAV swarms with quantitative stability guarantees. Combines artificial potential fields for collision avoidance, ADMM-based consensus, and model predictive control for trajectory tracking. Part of Project Lumyn. *(Conference paper in progress.)*
 
-`ROS 2` `Python` `Control Theory` `Multi-Agent Systems`
+`ROS 2` `Python` `C++` `Control Theory` `Multi-Agent Systems`
 
 ---
 
@@ -55,30 +73,21 @@ Implementing and tuning PID controllers on Pixhawk-based quadrotors for roll, pi
 
 ---
 
+### [`ACRL-SemanticStack`](https://github.com/sidhantjha/acrl-semantic-stack) — ROS 2 + Hydra Semantic Mapping
+> 3D Scene Graphs · LLM Planning · Nav2
+
+Integrated a ROS 2 autonomy stack with Hydra-based 3D Scene Graph mapping for generalized semantic world representations. Architected a multi-workspace system with Nav2, Hydra-ROS, and TurtleBot4 Gazebo. Resolved AMCL–Hydra frame transform conflicts causing `map → odom` drift and stabilized Nav2 lifecycle transitions.
+
+`ROS 2` `Hydra` `Nav2` `Gazebo` `C++`
+
+---
+
 ### [`Multi-Robot-Explore`](https://github.com/sidhantjha/multi-robot-explore) — Autonomous Decentralized Exploration
 > Partial Observability · Distributed Control · Stochastic Noise
 
 Decentralized ROS 2 autonomy architecture with per-agent controllers under partial observability and bounded communication delays. Robustness evaluated via task success rate and formation RMSE under dynamic disturbances.
 
 `ROS 2` `Nav2` `Python` `Gazebo`
-
----
-
-### [`rosscope`](https://github.com/sidhantjha/rosscope) *(🔨 Building)* — AI-Powered ROS 2 Debugger
-> Developer tooling · LLM-integrated · Graph visualization
-
-An intelligent debugging environment for ROS 2 developers — live node graph visualization, semantic error diagnosis, and AI-assisted troubleshooting. Built for robotics engineers who are tired of decoding cryptic transform errors.
-
-`Python` `ROS 2` `LLM` `Developer Tools`
-
----
-
-### [`ACRL-SemanticStack`](https://github.com/sidhantjha/acrl-semantic-stack) — ROS 2 + Hydra Semantic Mapping
-> Scene Graphs · LLM Planning · Nav2
-
-Integrated a ROS 2 autonomy stack with Hydra-based 3D Scene Graph mapping for generalized semantic world representations. Architected a multi-workspace system with Nav2, Hydra-ROS, and TurtleBot4 Gazebo. Resolved AMCL–Hydra frame transform conflicts causing `map → odom` drift.
-
-`ROS 2` `Hydra` `Nav2` `Gazebo` `C++`
 
 ---
 
@@ -89,7 +98,7 @@ Integrated a ROS 2 autonomy stack with Hydra-based 3D Scene Graph mapping for ge
 ![ROS2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white)
 ![Gazebo](https://img.shields.io/badge/Gazebo-FF6600?style=flat-square&logo=gazebo&logoColor=white)
 ![Nav2](https://img.shields.io/badge/Nav2-222222?style=flat-square&logo=ros&logoColor=white)
-![NVIDIA Isaac Sim](https://img.shields.io/badge/Isaac_Sim-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Isaac Sim](https://img.shields.io/badge/Isaac_Sim-76B900?style=flat-square&logo=nvidia&logoColor=white)
 
 **Languages**
 
@@ -99,15 +108,15 @@ Integrated a ROS 2 autonomy stack with Hydra-based 3D Scene Graph mapping for ge
 
 **Perception & Mapping**
 
-![Visual SLAM](https://img.shields.io/badge/Visual_SLAM-555555?style=flat-square)
-![Hydra](https://img.shields.io/badge/Hydra_(VIO+3DSceneGraph)-555555?style=flat-square)
-![Kimera](https://img.shields.io/badge/Kimera-555555?style=flat-square)
+![Visual SLAM](https://img.shields.io/badge/Visual_SLAM-1E293B?style=flat-square&logoColor=white)
+![Hydra](https://img.shields.io/badge/Hydra_(3D_Scene_Graphs)-1E293B?style=flat-square&logoColor=white)
+![Kimera](https://img.shields.io/badge/Kimera_VIO-1E293B?style=flat-square&logoColor=white)
 
 **Control & Decision-Making**
 
-![MPC](https://img.shields.io/badge/MPC-1A1A2E?style=flat-square)
-![LQR](https://img.shields.io/badge/LQR-1A1A2E?style=flat-square)
-![Game Theory](https://img.shields.io/badge/Game--Theoretic_Switching-1A1A2E?style=flat-square)
+![MPC](https://img.shields.io/badge/MPC-0F172A?style=flat-square&color=0F172A)
+![LQR](https://img.shields.io/badge/LQR-0F172A?style=flat-square)
+![Game Theory](https://img.shields.io/badge/Game--Theoretic_Switching-0F172A?style=flat-square)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Gymnasium](https://img.shields.io/badge/OpenAI_Gymnasium-0081A5?style=flat-square)
 
@@ -122,20 +131,23 @@ Integrated a ROS 2 autonomy stack with Hydra-based 3D Scene Graph mapping for ge
 ## 📡 Currently Building
 
 ```
-[■■■■■■□□□□]  SkySync      — APF-ADMM-MPC swarm paper (AIAA target)
-[■■■□□□□□□□]  rosscope     — AI debugger for ROS 2 developers
-[■■■■■■■□□□]  AirframeX    — RL + PID on Pixhawk quadrotor
+[■■■■■■■□□□]  rosscope           — AI debugging layer for ROS 2 (startup)
+[■■■■■■□□□□]  SkySync            — APF-ADMM-MPC swarm paper (AIAA target)
+[■■■■■■■■□□]  AVIATE Research    — Game-theoretic shared autonomy benchmarks
+[■■■■■□□□□□]  AirframeX          — RL + PID on Pixhawk quadrotor
 ```
 
 ---
 
 ## 🏗 Project Lumyn
 
-[**Project Lumyn**](https://github.com/project-lumyn) is a robotics autonomy organization I founded, focused on perception, control, and multi-agent systems research. Three active initiatives:
+[**Project Lumyn**](https://github.com/project-lumyn) is a robotics autonomy organization I founded at UIUC, focused on perception, control, and multi-agent systems research.
 
-- **SkySync** — Decentralized multi-UAV formation (APF + ADMM + MPC)
-- **AutoDock** — Autonomous UAV docking and precision landing
-- **EchoNav** — Sensor-based obstacle-aware navigation
+| Initiative | Description |
+|------------|-------------|
+| **SkySync** | Decentralized multi-UAV formation — APF + Consensus ADMM + MPC |
+| **AutoDock** | Autonomous UAV precision docking and landing |
+| **EchoNav** | Sensor-based obstacle-aware navigation stack |
 
 ---
 
@@ -145,8 +157,6 @@ Integrated a ROS 2 autonomy stack with Hydra-based 3D Scene Graph mapping for ge
 
 <br/>
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sidhantjha&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=94A3B8)](https://github.com/sidhantjha)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sidhantjha&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=94A3B8)](https://github.com/sidhantjha)
+[![GitHub Streak](https://streak-stats.demolab.com?user=sidhantjha&theme=tokyonight-duo&hide_border=true&background=0D1117&stroke=38BDF8&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=94A3B8&currStreakNum=F0F9FF&sideNums=F0F9FF)](https://github.com/sidhantjha)
 
 </div>
