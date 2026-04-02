@@ -31,7 +31,7 @@
 
 ---
 
-## 🔬 Research
+## Research
 
 | Lab | Role | Focus Area |
 |-----|------|------------|
@@ -41,7 +41,7 @@
 
 ---
 
-## 🛸 Projects
+## Projects
 
 ### [`rosscope`](https://github.com/sidhantjha/rosscope) — AI-Powered ROS 2 Debugging Environment *(Startup)*
 > Developer Tooling · LLM-integrated · Live Graph Visualization
@@ -97,7 +97,7 @@ Decentralized ROS 2 autonomy architecture with per-agent controllers under parti
 
 ---
 
-## ⚙️ Stack
+## Stack
 
 **Robotics & Middleware**
 
@@ -134,7 +134,7 @@ Decentralized ROS 2 autonomy architecture with per-agent controllers under parti
 
 ---
 
-## 📡 Currently Building
+## Currently Building
 
 ```
 [■■■■■■■□□□]  rosscope           — AI debugging layer for ROS 2 (startup)
@@ -145,7 +145,7 @@ Decentralized ROS 2 autonomy architecture with per-agent controllers under parti
 
 ---
 
-## 🏗 Project Lumyn
+## Project Lumyn
 
 [**Project Lumyn**](https://github.com/project-lumyn) is a robotics autonomy organization I founded at UIUC, focused on perception, control, and multi-agent systems research.
 
