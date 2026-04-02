@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner](banner.svg)
+<img src="https://raw.githubusercontent.com/sidhantjha/sidhantjha/main/banner.svg" width="100%"/>
 
 <br/>
 
@@ -8,20 +8,29 @@
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-sidhantsjha-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/sidhantsjha)
-[![Email](https://img.shields.io/badge/Email-ssjha2@illinois.edu-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ssjha2@illinois.edu)
-[![UIUC](https://img.shields.io/badge/UIUC-Aerospace_Engineering-13294B?style=flat-square)](https://aerospace.illinois.edu)
+[![LinkedIn](https://img.shields.io/badge/-LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sidhantsjha)
+&nbsp;
+[![Email](https://img.shields.io/badge/-SSJHA2@ILLINOIS.EDU-38BDF8?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ssjha2@illinois.edu)
+&nbsp;
+[![UIUC](https://img.shields.io/badge/-AEROSPACE_@_UIUC-13294B?style=for-the-badge&logo=academia&logoColor=white)](https://aerospace.illinois.edu)
+&nbsp;
+[![YouTube](https://img.shields.io/badge/-STORM_DRONES-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com)
 
 </div>
 
 ---
 
-```
-> Autonomy-focused engineer working at the intersection of perception,
-> control theory, and decentralized multi-robot coordination.
->
-> Researcher @ ACRL · AVIATE labs  ·  Founder @ Project Lumyn  ·  Building rosscope
-```
+<div align="center">
+<br/>
+
+**Autonomy-focused engineer at the intersection of perception, control theory, and decentralized multi-robot coordination.**
+
+<br/>
+
+`ACRL` &nbsp;·&nbsp; `AVIATE` &nbsp;·&nbsp; `Project Lumyn` &nbsp;·&nbsp; `rosscope`
+
+<br/>
+</div>
 
 ---
 
