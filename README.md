@@ -4,14 +4,13 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=15&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&width=700&lines=Building+robots+that+think+for+themselves.;Perception+%C2%B7+Control+%C2%B7+Decentralized+Intelligence;Aerospace+Engineering+%2B+CS+%40+UIUC" alt="Typing SVG" />
 
-
 [![LinkedIn](https://img.shields.io/badge/-LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sidhantsjha)
 &nbsp;
 [![Email](https://img.shields.io/badge/-SSJHA2@ILLINOIS.EDU-38BDF8?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ssjha2@illinois.edu)
 &nbsp;
 [![UIUC](https://img.shields.io/badge/-AEROSPACE_@_UIUC-13294B?style=for-the-badge&logo=academia&logoColor=white)](https://aerospace.illinois.edu)
 &nbsp;
-[![YouTube](https://img.shields.io/badge/-STORM_DRONES-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com)
+[![YouTube](https://img.shields.io/badge/-VOS_STUDIOS-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com)
 
 </div>
 
@@ -24,7 +23,7 @@
 
 <br/>
 
-`ACRL` &nbsp;·&nbsp; `AVIATE` &nbsp;·&nbsp; `Project Lumyn` &nbsp;·&nbsp; `rosscope`
+`ACRL` &nbsp;·&nbsp; `AVIATE` &nbsp;·&nbsp; `MIT SPARK Lab` &nbsp;·&nbsp; `Project Lumyn` &nbsp;·&nbsp; `rosscope`
 
 <br/>
 </div>
@@ -35,9 +34,9 @@
 
 | Lab | Role | Focus Area |
 |-----|------|------------|
-| **[ACRL](https://naira.mechse.illinois.edu/)**, UIUC | Undergraduate Researcher | ROS 2 + Hydra 3D Scene Graph mapping for LLM-based semantic planning |
-| **[AVIATE](https://aviate.aerospace.illinois.edu/)**, UIUC | Student Researcher | Shared human–AI autonomy via game-theoretic Nash equilibrium switching |
-| **IAMPL** *(Rolls-Royce × HAL JV)* | Engineering Intern | Parametric aerospace component design in Siemens NX under GD&T constraints |
+| **[ACRL](https://naira.mechse.illinois.edu/)**, UIUC | Undergraduate Researcher | ROS 2 + Hydra 3D Scene Graph mapping; joint NSF CPS project with MIT SPARK Lab (Prof. Luca Carlone, MIT AeroAstro) under Prof. Naira Hovakimyan |
+| **[AVIATE](https://aviate.aerospace.illinois.edu/)**, UIUC | Student Researcher | Shared human–AI autonomy via game-theoretic Nash equilibrium switching; extending Flip_Alt framework to UAVs and multi-robot systems |
+| **IAMPL** *(Rolls-Royce × HAL JV)* | Engineering Intern | Parametric aerospace component design in Siemens NX under GD&T constraints for Trent 1000 program |
 
 ---
 
@@ -48,43 +47,52 @@
 
 ROS 2 development is brutal — cryptic TF errors, silent node failures, transform drift that takes hours to diagnose. **rosscope** is an intelligent debugging environment that wraps your ROS 2 session with live node graph visualization, semantic error diagnosis, and AI-assisted troubleshooting. Built for robotics engineers who want to spend time on the actual problem, not the middleware.
 
-`Python` `ROS 2` `LLM` `Graph Visualization` `Developer Tools`
+`Python` `ROS 2` `LLM` `FastAPI` `React` `WebSockets` `Developer Tools`
+
+---
+
+### [`hydra_tb4_autonomy`](https://github.com/sidhantjha/hydra_tb4_autonomy) — ROS 2 + Hydra 3D Scene Graph Stack
+> 3D Scene Graphs · TSDF Reconstruction · LLM-based Semantic Planning · Nav2
+
+Deployed MIT SPARK Lab's Hydra Dynamic Scene Graph pipeline on ROS 2 Jazzy as the world representation layer in a joint NSF CPS perception-planning-control architecture (UIUC × MIT). Engineered a full sensor integration pipeline bridging TurtleBot3 Gazebo to Hydra's uHumans2 format — remapping 8 sensor topics, resolving TF inconsistencies across 5+ coordinate frames, modifying the TurtleBot3 Waffle SDF model to add 32FC1 depth sensing, and extending TSDF max_range from 5m to 10m for 60% improved depth coverage. Traced and resolved a silent Gazebo sensor bridge misconfiguration causing TSDF integration failure despite all pipeline components appearing active.
+
+`ROS 2` `Hydra` `Nav2` `Gazebo` `TSDF` `C++` `Python`
 
 ---
 
 ### [`AVIATE-SharedAutonomy`](https://github.com/sidhantjha/aviate-shared-autonomy) — Human–AI Cooperative Control
 > Game Theory · Nash Equilibrium Switching · Stochastic Override Models
 
-Investigating shared autonomy between human and AI agents for general dynamical systems using game-theoretic formulations. Implementing cooperative takeover policies from identical-interest dynamic games and Nash equilibrium switching strategies. Analyzing cost-sensitive authority transitions via linear–quadratic saddle-point recursions under stochastic human override models (pₖ). Benchmarking against ad-hoc baselines in OpenAI Gymnasium under disturbance and partial observability.
+Investigating shared autonomy between human and AI agents for general dynamical systems using game-theoretic formulations. Implementing cooperative takeover policies from identical-interest dynamic games and Nash equilibrium switching strategies. Analyzing cost-sensitive authority transitions via linear–quadratic saddle-point recursions under stochastic human override models (pₖ). Benchmarking against ad-hoc baselines in OpenAI Gymnasium under disturbance and partial observability. Extending the Flip_Alt framework beyond self-driving to UAV and multi-robot domains.
 
-`Python` `OpenAI Gymnasium` `Control Theory` `Game Theory` `LQR`
+`Python` `OpenAI Gymnasium` `Control Theory` `Game Theory` `LQR` `PyTorch`
 
 ---
 
 ### [`SkySync`](https://github.com/sidhantjha/skysync) — Decentralized Multi-UAV Formation Control
-> APF · Consensus ADMM · MPC · Stability Analysis
+> APF · Consensus ADMM · MPC · Peer-Reviewed · Anduril AI Grand Prix
 
-Designing a decentralized formation control architecture for UAV swarms with quantitative stability guarantees. Combines artificial potential fields for collision avoidance, ADMM-based consensus, and model predictive control for trajectory tracking. Part of Project Lumyn. *(Conference paper in progress.)*
+Designed and validated a hybrid control architecture combining Artificial Potential Fields, Consensus ADMM, and Model Predictive Control for simultaneous UAV swarm formation maintenance and obstacle avoidance. **Published and presented** at the AIAA Region III Student Conference, University of Michigan. Validated across 80 simulation trials: 80% mission success rate, 70.4% collision reduction vs. standalone APF, zero obstacle penetrations across all 20 hybrid trials. Hardware deployment on Crazyflie 2.1+. **Currently competing in the Anduril AI Grand Prix Drone Swarm Competition.**
 
-`ROS 2` `Python` `C++` `Control Theory` `Multi-Agent Systems`
+`ROS 2` `Python` `C++` `Webots` `Crazyflie` `Control Theory` `Multi-Agent Systems`
+
+---
+
+### [`AutoDock`](https://github.com/sidhantjha/autodock) — Autonomous Racing @ ICRA 2026
+> F1TENTH · SLAM · MPCC · Pure Pursuit · Rob Racer Sim Racing League
+
+**Competing in the Rob Racer Sim Racing League at ICRA 2026** (F1TENTH platform). Building and benchmarking a full algorithm stack: minimum-curvature racing line optimization, Pure Pursuit tracking, Model Predictive Contouring Control (MPCC), Model and Acceleration-based Pursuit (MAP) with Pacejka tire dynamics, and minimum-time trajectory optimization via CasADi + IPOPT. Unknown-track pipeline: SLAM (slam_toolbox) → racing line extraction → particle filter localization → Pure Pursuit, with Follow-the-Gap and Disparity Extender as reactive fallbacks. Hybrid mode-switching state machine for qualification and time-attack rounds.
+
+`ROS 2` `Python` `C++` `SLAM` `MPC` `CasADi` `F1TENTH`
 
 ---
 
 ### [`AirframeX`](https://github.com/sidhantjha/airframex) — Low-Level Quadrotor Flight Control
-> PID · Reinforcement Learning · Euler–Lagrange Dynamics
+> PID · Reinforcement Learning · Euler–Lagrange Dynamics · PX4
 
-Implementing and tuning PID controllers on Pixhawk-based quadrotors for roll, pitch, and thrust stabilization. Engineering RL state-machine policies to optimize motor thrust under nonlinear flight dynamics. Modeling propeller-arm torque–thrust coupling via Euler–Lagrange formulation.
+Implementing and tuning PID controllers on Pixhawk-based quadrotors for roll, pitch, and thrust stabilization. Engineering RL state-machine policies to optimize motor thrust under nonlinear flight dynamics. Modeling propeller-arm torque–thrust coupling via Euler–Lagrange formulation. Configured PX4 flight control systems including motor mapping, ESC calibration, PWM/OneShot/DShot protocols, and RC input via QGroundControl and MAVLink.
 
-`C++` `Python` `Pixhawk` `PX4` `ROS 2`
-
----
-
-### [`ACRL-SemanticStack`](https://github.com/sidhantjha/acrl-semantic-stack) — ROS 2 + Hydra Semantic Mapping
-> 3D Scene Graphs · LLM Planning · Nav2
-
-Integrated a ROS 2 autonomy stack with Hydra-based 3D Scene Graph mapping for generalized semantic world representations. Architected a multi-workspace system with Nav2, Hydra-ROS, and TurtleBot4 Gazebo. Resolved AMCL–Hydra frame transform conflicts causing `map → odom` drift and stabilized Nav2 lifecycle transitions.
-
-`ROS 2` `Hydra` `Nav2` `Gazebo` `C++`
+`C++` `Python` `Pixhawk` `PX4` `ROS 2` `MAVSDK`
 
 ---
 
@@ -105,6 +113,7 @@ Decentralized ROS 2 autonomy architecture with per-agent controllers under parti
 ![Gazebo](https://img.shields.io/badge/Gazebo-FF6600?style=flat-square&logo=gazebo&logoColor=white)
 ![Nav2](https://img.shields.io/badge/Nav2-222222?style=flat-square&logo=ros&logoColor=white)
 ![Isaac Sim](https://img.shields.io/badge/Isaac_Sim-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Webots](https://img.shields.io/badge/Webots-1E293B?style=flat-square&logoColor=white)
 
 **Languages**
 
@@ -115,16 +124,25 @@ Decentralized ROS 2 autonomy architecture with per-agent controllers under parti
 **Perception & Mapping**
 
 ![Visual SLAM](https://img.shields.io/badge/Visual_SLAM-1E293B?style=flat-square&logoColor=white)
-![Hydra](https://img.shields.io/badge/Hydra_(3D_Scene_Graphs)-1E293B?style=flat-square&logoColor=white)
+![Hydra](https://img.shields.io/badge/Hydra_(MIT_SPARK)-1E293B?style=flat-square&logoColor=white)
 ![Kimera](https://img.shields.io/badge/Kimera_VIO-1E293B?style=flat-square&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 
 **Control & Decision-Making**
 
 ![MPC](https://img.shields.io/badge/MPC-0F172A?style=flat-square&color=0F172A)
 ![LQR](https://img.shields.io/badge/LQR-0F172A?style=flat-square)
+![L1 Adaptive](https://img.shields.io/badge/L1_Adaptive_Control-0F172A?style=flat-square)
 ![Game Theory](https://img.shields.io/badge/Game--Theoretic_Switching-0F172A?style=flat-square)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Gymnasium](https://img.shields.io/badge/OpenAI_Gymnasium-0081A5?style=flat-square)
+
+**UAV & Hardware**
+
+![PX4](https://img.shields.io/badge/PX4-5C3EE8?style=flat-square&logoColor=white)
+![MAVSDK](https://img.shields.io/badge/MAVSDK-1E293B?style=flat-square&logoColor=white)
+![Crazyflie](https://img.shields.io/badge/Crazyflie_2.1+-1E293B?style=flat-square&logoColor=white)
+![Pixhawk](https://img.shields.io/badge/Pixhawk-1E293B?style=flat-square&logoColor=white)
 
 **Design & Tools**
 
@@ -137,23 +155,33 @@ Decentralized ROS 2 autonomy architecture with per-agent controllers under parti
 ## Currently Building
 
 ```
-[■■■■■■■□□□]  rosscope           — AI debugging layer for ROS 2 (startup)
-[■■■■■■□□□□]  SkySync            — APF-ADMM-MPC swarm paper (AIAA target)
-[■■■■■■■■□□]  AVIATE Research    — Game-theoretic shared autonomy benchmarks
-[■■■■■□□□□□]  AirframeX          — RL + PID on Pixhawk quadrotor
+[■■■■■■■□□□]  rosscope              — AI debugging layer for ROS 2 (startup)
+[■■■■■■■■■□]  SkySync               — Competing: Anduril AI Grand Prix Drone Swarm Competition
+[■■■■■■□□□□]  AutoDock              — Competing: Rob Racer Sim Racing League @ ICRA 2026
+[■■■■■■■■□□]  AVIATE Research       — Game-theoretic shared autonomy benchmarks
+[■■■■■■■■■□]  ACRL / MIT SPARK      — Hydra 3D Scene Graph + certifiable UAV control (NSF CPS)
+[■■■■■□□□□□]  AirframeX             — RL + PID on Pixhawk quadrotor
 ```
 
 ---
 
 ## Project Lumyn
 
-[**Project Lumyn**](https://github.com/project-lumyn) is a robotics autonomy organization I founded at UIUC, focused on perception, control, and multi-agent systems research.
+[**Project Lumyn**](https://github.com/project-lumyn) is a robotics autonomy organization I founded at UIUC's AIAA chapter, leading 20+ engineers across perception, control, and multi-agent systems research.
 
-| Initiative | Description |
-|------------|-------------|
-| **SkySync** | Decentralized multi-UAV formation — APF + Consensus ADMM + MPC |
-| **AutoDock** | Autonomous UAV precision docking and landing |
-| **EchoNav** | Sensor-based obstacle-aware navigation stack |
+| Initiative | Status | Description |
+|------------|--------|-------------|
+| **SkySync** | ✅ Conference Paper Published · 🏆 Anduril AI Grand Prix | Hybrid APF + Consensus ADMM + MPC swarm control — presented at AIAA Region III, University of Michigan |
+| **AutoDock** | 🏁 ICRA 2026 Competitor | Autonomous racing on F1TENTH platform — SLAM + MPCC + Pure Pursuit pipeline |
+| **EchoNav** | 🔨 Active Development | Sensor-based obstacle-aware navigation stack with LiDAR + OpenCV |
+
+---
+
+## Publications
+
+**"Toward Real-World Swarm Deployment: A Hybrid APF–ADMM–MPC Control Architecture for Path Planning in Multi-UAV Systems"**
+Yuvraj Agarwal, Sidhant Jha, Neil Kashid, Robbie Harris, Aditya Choksi
+*AIAA Region III Student Conference, University of Michigan, 2025*
 
 ---
 
