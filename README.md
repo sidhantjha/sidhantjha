@@ -50,6 +50,14 @@ Deployed MIT SPARK Lab's Hydra Dynamic Scene Graph pipeline on ROS 2 Jazzy as th
 `ROS 2` `Hydra` `Nav2` `Gazebo` `TSDF` `C++` `Python`
 
 ---
+### [`drone-gate-perception`](https://github.com/sidhantjha/skysync_anduril_grand_prix.git)) — Gate Perception and Pose Estimation for Autonomous Drone Racing
+> CNN · U-Net · Keypoint Detection · YOLO-Pose · PnP · Kalman Filter · TII Dataset
+
+Comparative computer vision pipeline evaluating four perception front-ends — CNN classification, U-Net segmentation, custom heatmap keypoint CNN, and YOLO-Pose — for racing-gate detection and corner localization on the TII Race Against the Machine dataset. Connects best-performing perception outputs to PnP pose estimation (solvePnP) and Kalman filter state estimation, evaluated against mocap ground truth. Metrics span classification accuracy, mask IoU, corner error, PCK, PnP reprojection error, and downstream state-estimation RMSE.
+
+`Python` `PyTorch` `OpenCV` `YOLO-Pose` `PnP` `Kalman Filter`
+
+---
 
 ### [`AVIATE-SharedAutonomy`](https://github.com/sidhantjha/aviate-shared-autonomy) — Human–AI Cooperative Control
 > Game Theory · Nash Equilibrium Switching · Stochastic Override Models
