@@ -42,15 +42,6 @@
 
 ## Projects
 
-### [`rosscope`](https://github.com/sidhantjha/rosscope) — AI-Powered ROS 2 Debugging Environment *(Startup)*
-> Developer Tooling · LLM-integrated · Live Graph Visualization
-
-ROS 2 development is brutal — cryptic TF errors, silent node failures, transform drift that takes hours to diagnose. **rosscope** is an intelligent debugging environment that wraps your ROS 2 session with live node graph visualization, semantic error diagnosis, and AI-assisted troubleshooting. Built for robotics engineers who want to spend time on the actual problem, not the middleware.
-
-`Python` `ROS 2` `LLM` `FastAPI` `React` `WebSockets` `Developer Tools`
-
----
-
 ### [`hydra_tb4_autonomy`](https://github.com/sidhantjha/hydra_tb4_autonomy) — ROS 2 + Hydra 3D Scene Graph Stack
 > 3D Scene Graphs · TSDF Reconstruction · LLM-based Semantic Planning · Nav2
 
@@ -93,15 +84,6 @@ Designed and validated a hybrid control architecture combining Artificial Potent
 Implementing and tuning PID controllers on Pixhawk-based quadrotors for roll, pitch, and thrust stabilization. Engineering RL state-machine policies to optimize motor thrust under nonlinear flight dynamics. Modeling propeller-arm torque–thrust coupling via Euler–Lagrange formulation. Configured PX4 flight control systems including motor mapping, ESC calibration, PWM/OneShot/DShot protocols, and RC input via QGroundControl and MAVLink.
 
 `C++` `Python` `Pixhawk` `PX4` `ROS 2` `MAVSDK`
-
----
-
-### [`Multi-Robot-Explore`](https://github.com/sidhantjha/multi-robot-explore) — Autonomous Decentralized Exploration
-> Partial Observability · Distributed Control · Stochastic Noise
-
-Decentralized ROS 2 autonomy architecture with per-agent controllers under partial observability and bounded communication delays. Robustness evaluated via task success rate and formation RMSE under dynamic disturbances.
-
-`ROS 2` `Nav2` `Python` `Gazebo`
 
 ---
 
