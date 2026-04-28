@@ -69,7 +69,7 @@ Investigating shared autonomy between human and AI agents for general dynamical 
 
 ---
 
-### [`SkySync`](https://github.com/sidhantjha/skysync) — Decentralized Multi-UAV Formation Control
+### [`SkySync`](https://github.com/sidhantjha/SkySync_Hybrid_Multi_UAV_Swarm_Controller.git) — Decentralized Multi-UAV Formation Control
 > APF · Consensus ADMM · MPC · Peer-Reviewed · Anduril AI Grand Prix
 
 Designed and validated a hybrid control architecture combining Artificial Potential Fields, Consensus ADMM, and Model Predictive Control for simultaneous UAV swarm formation maintenance and obstacle avoidance. **Published and presented** at the AIAA Region III Student Conference, University of Michigan. Validated across 80 simulation trials: 80% mission success rate, 70.4% collision reduction vs. standalone APF, zero obstacle penetrations across all 20 hybrid trials. Hardware deployment on Crazyflie 2.1+. **Currently competing in the Anduril AI Grand Prix Drone Swarm Competition.**
